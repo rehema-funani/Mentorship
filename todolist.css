@@ -1,0 +1,200 @@
+#wholepage{
+    background-color: blueviolet;
+}
+#wholepage{
+    padding: 5%;
+  background-color: white;
+  height: 1000px;
+  width: 1500px;
+
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    gap: 5%;
+    height: 15%;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+}
+ul{
+    display: flex;
+    gap: 5%;
+}
+li{
+    list-style: none;
+}
+a{
+    
+    color: white;
+}
+.logo{
+    width: 20px;
+    height: 15%;
+}
+.mentor{
+    width: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+.main-container{
+
+    background-color: white;
+}
+
+a{
+    color: black;
+}
+#input-box{
+    width: 370px;
+    height: 50px;
+}
+h1{
+    color: white;
+}
+
+
+
+
+
+.todo-list{
+    background-color: blueviolet;
+    width: 45%;
+
+    width: 700px;
+    border-radius: 20px;
+    height: 600px;
+    border-radius: 30px;
+    margin-left: 35%;
+    text-align: center;
+}
+button{
+    background-color: white;
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+}
+input{
+    width: 40%;
+    border-radius: 30px;
+}
+h2{
+    margin-left: 35%;
+}
+
+
+#profile{
+    background-color: blueviolet;
+    width: 500px;
+    text-align: center;
+    border-radius: 30px;
+}
+.eunice{
+    background-color: white;
+    border-radius: 50%;
+}
+h2{
+    color: black;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    gap: 5%;
+    
+    height: 75px;
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1280px){
+    #navbar{
+        width: 95%;
+        height: 3%;
+        font-size: x-small;
+        margin-left: 8%;
+        
+    }
+    .todo-list{
+        
+        margin-left: -2%;
+        width: 108%;
+        height: 15%;
+    }
+    #input-box{
+        width: 30%;
+    }
+    #wholepage{
+        margin: auto;
+        padding: auto;
+        width: 91%;
+    }
+    
+    
+    
+}
+
+/* @media screen and (max-width:600px){
+    #navbar{
+        width: 33%;
+        height: 10%;
+        font-size: smaller;
+        margin-left: -10%;
+    }
+    #input-box{
+        width: 35%;
+    }
+    .todo-list{
+        width: 20%;
+        margin-left: 0%;
+    }
+    #main-container{
+        width: 1%;
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width:601px) and (max-width:910px){
+    #navbar{
+        width: 40%;
+        font-size: x-small;
+        height: 15%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .todo-list{
+        width: 15%;
+        margin-left: -1%;
+    }
+    #input-box{
+        width: 45%;
+        height: 30%;
+    }
+}
+@media screen and (min-width:912px) {
+    #navbar{
+        width: 25%;
+        font-size: smaller;
+        margin-left: -3%;
+
+    }
+    .todo-list{
+        width: 20%;
+        margin-left: -3%;
+    }
+    #input-box{
+        width: 35%;
+    }
+    
+} */

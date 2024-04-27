@@ -1,0 +1,88 @@
+#login{
+    background-color: blueviolet;
+    width: 700px;
+    border-radius: 20px;
+    height: 600px;
+    margin-left: 35%;
+    text-align: center;
+    
+    
+}
+
+input{
+    width: 70%;
+    height: 10%;
+    border-radius: 30px;
+    border-color: blueviolet;
+}
+button{
+background-color: white;
+width: 30%;
+height: 10%;
+border-radius: 30px;
+}
+#wholepage{
+    padding: 5%;
+  background-color: white;
+  height: 600px;
+  width: 1500px;
+
+}
+#form{
+    background-color: white;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+ul{
+    display: flex;
+    gap: 5%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 30px;
+}
+
+#homepage{
+    text-align: center;
+    
+}
+.mentor{
+    width: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+
+@media screen and (max-width:1280px){
+   #login{
+    width: 110%;
+    margin-left: -5%;
+    font-size: small;
+    
+   } 
+    form{
+        width: 23%;
+    }
+    input{
+        width: 30%;
+        height: 5%;
+    }
+    button{
+        width: 20%;
+    }
+    #wholepage{
+        margin: auto;
+        padding: auto;
+        width: 92%;
+    }
+}

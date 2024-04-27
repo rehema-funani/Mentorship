@@ -1,0 +1,94 @@
+#profile{
+    background-color: blueviolet;
+    width: 500px;
+    text-align: center;
+    border-radius: 30px;
+}
+.eunice{
+    background-color: white;
+    border-radius: 50%;
+}
+h2{
+    color: black;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    gap: 5%;
+    
+    height: 75px;
+    
+}
+
+
+
+#wholepage{
+    padding: 5%;
+  background-color: white;
+  height: 1000px;
+  width: 1500px;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    h
+}
+a{
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 5%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 20px;
+    height: 20%;
+}
+.mentor{
+    width: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin-left: 30%;
+}
+#maindiv{
+    display: flex;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30%;
+    margin-top: 5%;
+
+}
+/* .logo2{
+    width: 550px;
+    margin-left: 5%;
+
+} */
+@media screen and (max-width:1100px){
+    
+    #navbar{
+        width: 100%;
+    
+}
+#profile{
+    margin-left: -30%;
+    width: 115%;
+}
+.eunice{
+    width: 45%;
+}
+#input-box{
+    width: 20%;
+}
+}

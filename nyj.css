@@ -1,0 +1,22 @@
+.logo{
+    width: 20px;
+    height: 15%;
+}
+
+#wholepage{
+        padding: 5%;
+      background-color: white;
+      height: 1000px;
+      width: 1500px;
+    
+ }
+ #navbar{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: blueviolet;
+        gap: 5%;
+        height: 15%;
+        
+        
+}
+ 

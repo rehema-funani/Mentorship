@@ -1,0 +1,116 @@
+/* #signup{
+    text-align: center;
+    background-color: blueviolet; 
+    
+    
+
+    width: 700px;
+    border-radius: 20px;
+    height: 600px;
+    margin-left: 35%;
+    text-align: center;
+     */
+ 
+    
+ /* } */
+ #form{
+    background-color: blueviolet;
+ }
+ button{
+    background-color: blueviolet;
+    width: 30%;
+    border-radius: 30px;
+
+ }
+ #wholepage{
+    padding: 5%;
+  background-color: white;
+  height: 1000px;
+  width: 1500px;
+
+}
+#signup{
+    background-color: blueviolet;
+    width: 700px;
+    border-radius: 20px;
+    height: 600px;
+    margin-left: 35%;
+    text-align: center;
+    
+    
+}
+#form{
+    background-color: white;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+ul{
+    display: flex;
+    gap: 5%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 30px;
+}
+
+#homepage{
+    text-align: center;
+    
+}
+.mentor{
+    width: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+#wholepage{
+    background-color: white;
+    height: 600px;
+}
+#signuppage{
+    display: flex;
+}
+.logo1{
+    border-radius: 50%;
+    width: 20px;
+    margin-left: 20%;
+}
+.input{
+    width: 70%;
+    height: 10%;
+    border-color: blueviolet;
+    border-radius: 30px;
+}
+button{
+    height: 30px;
+    background-color: white;
+}
+a{
+    color: white;
+}
+h2{
+    color: blueviolet;
+}
+
+
+@media screen and (max-width:1280px){
+    #wholepage{
+        margin: auto;
+        padding: auto;
+        width: 81%;
+    }
+    #signup{
+        margin-left: -3%;
+        width: 90%;
+    }
+    
+}
